@@ -1,7 +1,9 @@
+package binarySearch;
+
 public class sqrt {
 	public static void main(String[] args) {
-		// x = 4   sqrt = 2;
-		// x = 8   sqrt = 2;
+		// x = 4   binarySearch.sqrt = 2;
+		// x = 8   binarySearch.sqrt = 2;
 		System.out.println(sqrt(2147395599));
 	}
 	public static int sqrt(int x) {

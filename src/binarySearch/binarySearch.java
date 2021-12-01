@@ -1,3 +1,5 @@
+package binarySearch;
+
 public class binarySearch {
 	public static void main(String[] args) {
 		int [] sortedArray = new int[] {1,3,5,7,9};

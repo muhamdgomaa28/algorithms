@@ -1,3 +1,5 @@
+package binarySearch;
+
 public class guessNumberHigherOrLower {
 	public static void main(String[] args) {
 
