@@ -1,3 +1,5 @@
+package ArraysAndStrings;
+
 import java.util.List;
 
 public class groupingDigits {
@@ -58,33 +60,11 @@ public class groupingDigits {
 
     }
 
-
-    public static int minSwaps(int[] arr) {
-        int min_swaps1 = 0;
-        int zero_counts = 0;
-        int min_swaps2 = 0;
-        int one_counts = 0;
-//        0,1,1,0
-        //0,1,0,1,1,0,1
-
-        for (int j : arr) {
-            if (j == 0) {
-                zero_counts++;
-                min_swaps2 += one_counts;
-            } else {
-                one_counts++;
-                min_swaps1 += zero_counts;
-            }
-        }
-
-        return Math.min(min_swaps1, min_swaps2);
-    }
     /////////////////////////////
 
     public static int getMinimumUniqueSum(List<Integer> arr) {
         // Write your code here
 
-        // Integer [] array = arr.toArray(new Integer[arr.size()]);
         int n =arr.size();
         int sum =arr.get(0);
         int prev =arr.get(0);
